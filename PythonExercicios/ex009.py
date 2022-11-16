@@ -1,0 +1,24 @@
+print('==TABUADA==')
+n1 = int(input("Digite um número para que seja calculado em nossa tabuada: "))
+r1 = n1 * 1
+r2 = n1 * 2
+r3 = n1 * 3
+r4 = n1 * 4
+r5 = n1 * 5
+r6 = n1 * 6
+r7 = n1 * 7
+r8 = n1 * 8
+r9 = n1 * 9
+r0 = n1 * 10
+print('=' * 12)
+print('{} X  1 = {:2}'.format(n1, r1))
+print('{} X  2 = {:2}'.format(n1, r2))
+print('{} X  3 = {:2}'.format(n1, r3))
+print('{} X  4 = {:2}'.format(n1, r4))
+print('{} X  5 = {:2}'.format(n1, r5))
+print('{} X  6 = {:2}'.format(n1, r6))
+print('{} X  7 = {:2}'.format(n1, r7))
+print('{} X  8 = {:2}'.format(n1, r8))
+print('{} X  9 = {:2}'.format(n1, r9))
+print('{} X 10 = {:2}'.format(n1, r0))
+print('=' * 12)
